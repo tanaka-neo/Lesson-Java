@@ -25,6 +25,7 @@ public class PracticeTest4 {
 		
 		Calendar tuki = Calendar.getInstance();
 		int month = tuki.get(Calendar.MONTH) + 1;
+		
 		switch(month) {
 		case 1:
 			System.out.println("冬物セール");
@@ -45,37 +46,31 @@ public class PracticeTest4 {
 		case 6:
 		
 		case 7:
-			System.out.println("");
+			System.out.println("夏物を売る");
 			break;
 
 		case 8:
-			message = "8月";
+			System.out.println("夏物セール");
 			break;
 
 		case 9:
-			message = "9月";
+			System.out.println("秋物を売る");
 			break;
 
 		case 10:
-			message = "10月";
-			break;
-
-		case 11:
-			message = "11月";
-			break;
-
-		case 12:
-			message = "12月";
-			break;
-
-		default:
-			message = "1～12を入力してください";
-
-		}
-		System.out.println(message);
-		sc.close();
-	}
 		
+		case 11:
+			
+		case 12:
+			System.out.println("冬物を売る");
+			break;
+		default:
+			System.out.println("1～12を入力してください");
+			break;
+		}
+
+	}
+}		
 //		途中です。
-	}		
-}
+
+
